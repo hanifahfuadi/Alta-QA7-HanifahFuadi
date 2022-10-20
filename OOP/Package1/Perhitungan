@@ -1,0 +1,57 @@
+package package1;
+
+public class ProtectedAccess {
+    protected int luaspersegi = 4;
+    protected int luasalassegitiga = 3;
+    protected int luastinggisegitiga = 4;
+    protected int luasmiringsegitiga = 5;
+    protected int luaspersegipanjang = 7;
+    protected int luaspersegilebar = 8;
+    protected int kubus = 10;
+    protected int balokalas = 3;
+    protected int baloklebar = 6;
+    protected int baloktinggi = 10;
+    protected int tabungjari = 7;
+    protected int tabungtinggi = 10;
+
+    protected  int jumlah1 = 3;
+    protected int jumlah2 = 4;
+    protected int kurang1 =15;
+    protected int kurang2 = 4;
+    protected int kali1 = 10;
+    protected int kali2 = 10;
+    protected int bagi1 = 12;
+    protected int bagi2 = 3;
+    protected String description1 = "Luas persegi";
+    protected String description2 = "Luas segitiga";
+    protected String description3 = "Luas persegi panjang";
+    protected String description4 = "Keliling persegi";
+    protected String description5 = "Keliling segitiga";
+    protected String description6 = "Keliling persegi panjang";
+    protected String description7 = "volume kubus";
+    protected String description8 = "volume balok";
+    protected String description9 = "volume tabung";
+    protected String description10= "Penjumlahan";
+    protected String description11= "Pengurangan";
+    protected String description12= "Perkalian";
+    protected String description13= "Pembagian";
+
+    protected void tulisNama(){
+        System.out.println("Hasl Luas");}
+
+    public static void main(String[] args) {
+        ProtectedAccess protectedAccess = new ProtectedAccess();
+        System.out.println(protectedAccess.luaspersegi);
+        System.out.println(protectedAccess.luasalassegitiga);
+        System.out.println(protectedAccess.luastinggisegitiga);
+        System.out.println(protectedAccess.luaspersegilebar);
+        System.out.println(protectedAccess.luaspersegipanjang);
+        System.out.println(protectedAccess.description1);
+        System.out.println(protectedAccess.description2);
+        System.out.println(protectedAccess.description3);
+        System.out.println(protectedAccess.description4);
+        System.out.println(protectedAccess.description5);
+        System.out.println(protectedAccess.description6);
+        protectedAccess.tulisNama();
+    }
+}
