@@ -1,0 +1,27 @@
+package package2;
+
+public class ProtectedAccessOngkosKirim {
+    protected float panjang = 5;
+    protected float lebar = 2;
+    protected float tinggi = 4;
+    protected float berat = 1;
+    protected String harga = "Rp 5000";
+
+    protected String satukiloperkubik = "Berat per kubik";
+    protected String satukiloperkubikpembulatankebawah = "Berat per kubik pembulatan kebawah";
+    protected String hargabarangperkilo = "Harga Barang per Kilogram";
+
+
+    public static void main(String[] args) {
+        ProtectedAccessOngkosKirim protectedAccessOngkosKirim = new ProtectedAccessOngkosKirim();
+        System.out.println(protectedAccessOngkosKirim.panjang);
+        System.out.println(protectedAccessOngkosKirim.lebar);
+        System.out.println(protectedAccessOngkosKirim.tinggi);
+        System.out.println(protectedAccessOngkosKirim.berat);
+        System.out.println(protectedAccessOngkosKirim.harga);
+
+
+
+
+    }
+}
