@@ -1,0 +1,12 @@
+public class LuasSegitiga {
+    public static void main(String[] args) {
+// input
+     int alas = 20, tinggi = 25, total;
+     float floatalas = 20, floattinggi = 25, floatbagi = 2;
+
+     // kode disini
+     float totalfloat = (floatalas * floattinggi)/floatbagi;
+        System.out.println("total :"+totalfloat);
+
+    }
+}
