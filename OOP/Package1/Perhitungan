@@ -1,0 +1,33 @@
+package package1;
+
+public class Perhitungan {
+    public static void main(String[] args) {
+        ProtectedAccess protectedAccess = new ProtectedAccess();
+        System.out.println(protectedAccess.description1);
+        System.out.println(protectedAccess.luaspersegi* protectedAccess.luaspersegi);
+        System.out.println(protectedAccess.description2);
+        System.out.println((protectedAccess.luasalassegitiga*protectedAccess.luastinggisegitiga)/2);
+        System.out.println(protectedAccess.description3);
+        System.out.println(protectedAccess.luaspersegipanjang*protectedAccess.luaspersegilebar);
+        System.out.println(protectedAccess.description4);
+        System.out.println((protectedAccess.luaspersegi+protectedAccess.luaspersegi)*2);
+        System.out.println((protectedAccess.description5));
+        System.out.println((protectedAccess.luasalassegitiga+protectedAccess.luasmiringsegitiga+protectedAccess.luastinggisegitiga));
+        System.out.println(protectedAccess.description6);
+        System.out.println((protectedAccess.luaspersegipanjang+protectedAccess.luaspersegilebar)*2);
+        System.out.println(protectedAccess.description7);
+        System.out.println(protectedAccess.kubus*protectedAccess.kubus*protectedAccess.kubus);
+        System.out.println(protectedAccess.description8);
+        System.out.println(protectedAccess.balokalas*protectedAccess.baloklebar*protectedAccess.baloktinggi);
+        System.out.println(protectedAccess.description9);
+        System.out.println(protectedAccess.tabungtinggi*protectedAccess.tabungjari*22);
+        System.out.println(protectedAccess.description10);
+        System.out.println(protectedAccess.jumlah1+ protectedAccess.jumlah2);
+        System.out.println(protectedAccess.description11);
+        System.out.println(protectedAccess.kurang1- protectedAccess.kurang2);
+        System.out.println(protectedAccess.description12);
+        System.out.println(protectedAccess.kali1*protectedAccess.kali2);
+        System.out.println(protectedAccess.description13);
+        System.out.println(protectedAccess.bagi1/protectedAccess.bagi2);
+    }
+}
