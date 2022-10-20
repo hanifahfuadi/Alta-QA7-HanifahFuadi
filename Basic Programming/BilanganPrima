@@ -1,0 +1,21 @@
+import java.util.Scanner;
+public class BilanganPrima{
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        int bil, cek=0;
+        System.out.println("PROGRAM JAVA MENENTUKAN BILANGAN PRIMA ATAU BUKAN");
+        System.out.println("Input:");
+        bil= input.nextInt();
+        System.out.println("_______________________________________________________");
+        for (int i=2; i<=bil; i++){
+             if (bil%i==0){
+               cek++;
+            }
+        }
+        if (cek==1){
+            System.out.println(bil+"true");
+    }else {
+            System.out.println(bil+"false");
+}
+}
+}
