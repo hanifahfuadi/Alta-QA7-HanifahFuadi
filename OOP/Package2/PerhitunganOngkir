@@ -1,0 +1,14 @@
+package package2;
+
+public class PerhitunganOngkir {
+    public static void main(String[] args) {
+        ProtectedAccessOngkosKirim protectedAccessOngkosKirim = new ProtectedAccessOngkosKirim();
+        System.out.println(protectedAccessOngkosKirim.satukiloperkubik);
+        System.out.println(protectedAccessOngkosKirim.berat/(protectedAccessOngkosKirim.panjang*protectedAccessOngkosKirim.lebar*protectedAccessOngkosKirim.tinggi));
+        System.out.println(protectedAccessOngkosKirim.satukiloperkubikpembulatankebawah);
+        System.out.println(+Math.floor(protectedAccessOngkosKirim.berat/(protectedAccessOngkosKirim.panjang*protectedAccessOngkosKirim.lebar*protectedAccessOngkosKirim.tinggi)));
+        System.out.println(protectedAccessOngkosKirim.hargabarangperkilo);
+        if ((+Math.floor(protectedAccessOngkosKirim.berat/(protectedAccessOngkosKirim.panjang*protectedAccessOngkosKirim.lebar*protectedAccessOngkosKirim.tinggi))) <= 0.02){
+            System.out.println(protectedAccessOngkosKirim.harga);}
+    }
+}
